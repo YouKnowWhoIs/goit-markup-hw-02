@@ -1,0 +1,77 @@
+@font-face {
+  font-family: style-text;
+  src: url(https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css);
+}
+
+body {
+  font-family: "Robot", "style-text", sans-serif;
+  color: #2b2f42;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.31; /* font-size / line-height = */
+  letter-spacing: 0.32px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #2b2f42;
+  color: #f4f4fd;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  font-size: 56px;
+  font-style: normal;
+  line-height: 60px;
+}
+
+button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.main-button {
+  font-weight: 500;
+  color: #f4f4fd;
+  letter-spacing: 0.64px;
+}
+
+.main-title {
+  background-color: #2b2f42;
+}
+
+.main-list-team {
+  background-color: #f4f4fd;
+}
+
+.header-logo,
+.footer-logo {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16; /* font-size / line-height = */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-logo {
+  color: #f4f4fd;
+}
+.blue-logo {
+  color: #4d5ae5;
+}
