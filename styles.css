@@ -6,8 +6,8 @@
 body {
   font-family: "Robot", "style-text", sans-serif;
   color: #2b2f42;
-  text-align: center;
   background-color: #fff;
+  text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.31; /* font-size / line-height = */
@@ -22,6 +22,10 @@ body {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
