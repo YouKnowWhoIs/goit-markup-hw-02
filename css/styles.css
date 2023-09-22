@@ -19,14 +19,14 @@ a {
   color: #2e2f42;
 }
 
-.all-h1 {
+.one-h {
   color: #fff;
   font-weight: 700;
   letter-spacing: 1.12px;
   font-size: 56px;
   line-height: 1.07;
 }
-.all-h2 {
+.two-h {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
@@ -34,7 +34,7 @@ a {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-h3 {
+.three-h {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
