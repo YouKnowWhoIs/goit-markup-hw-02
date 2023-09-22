@@ -1,6 +1,6 @@
 body {
-  font-family: "Robot", "Raleway", sans-serif;
-  color: #2b2f42;
+  font-family: "Robot", sans-serif;
+  color: #434455;
   background-color: #fff;
   font-weight: 400;
   font-size: 16px;
@@ -59,6 +59,8 @@ button:hover {
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.64px;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
 }
 
 .header-nav {
@@ -66,18 +68,26 @@ button:hover {
   line-height: 1.5;
 }
 
+.header-menu {
+  color: #2e2f42;
+}
+
 .head-address {
-  color: #434455;
   line-height: 1.5;
+  color: #434455;
+  font-style: normal;
+}
+
+.list-head-address:hover {
+  color: #404bbf;
 }
 
 .main-title {
-  background-color: #2b2f42;
+  background-color: #2e2f42;
   text-align: center;
 }
 
 .main-p {
-  color: #434455;
   line-height: 1.5;
 }
 
@@ -86,29 +96,39 @@ button:hover {
   text-align: center;
 }
 
+.li-main-list {
+  background-color: #ffffff;
+}
+
 .main-list-portfolio {
   text-align: center;
 }
 
 .header-logo,
 .footer-logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16; /* font-size / line-height = */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.footer-logo {
+.header-color-logo {
+  color: #2e2f42;
+}
+.footer-color-logo {
   color: #f4f4fd;
 }
-.blue-logo {
-  color: #4d5ae5;
+.header-logo:hover,
+.footer-logo:hover,
+.header-color-logo:hover,
+.footer-color-logo:hover {
+  color: #404bbf;
 }
 
 .footer {
-  background-color: #2b2f42;
+  background-color: #2e2f42;
 }
 
 .footer-p {
